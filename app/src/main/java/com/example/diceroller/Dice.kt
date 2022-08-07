@@ -1,0 +1,8 @@
+package com.example.diceroller
+
+class Dice (val numSides: Int) {
+    fun roll(): Int {
+        // generate a random number between 1 and 6
+        return (1..numSides).random()
+    }
+}
